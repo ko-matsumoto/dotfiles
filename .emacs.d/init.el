@@ -161,7 +161,7 @@
 
 ;; Font Setting
 (add-to-list 'default-frame-alist
-             '(font . "-*-Migu 1M-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1"))
+             '(font . "-*-Migu 1M-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1"))
 
 
 (require 'package) ; package.el を有効化
@@ -187,7 +187,7 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(display-time-mode t)
- '(package-selected-packages (quote (helm htmlize ack)))
+;; '(package-selected-packages (quote (helm htmlize ack)))
  '(show-paren-mode t)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
