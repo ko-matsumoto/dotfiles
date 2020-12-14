@@ -56,7 +56,7 @@
 ;; ツールバーを非表示
 ;; M-x tool-bar-mode で表示非表示を切り替えられる
 ;;----
-(tool-bar-mode -1)
+;; (tool-bar-mode -1)
  
 ;;----
 ;; タイトルバーにフルパス表示
@@ -187,10 +187,11 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(display-time-mode t)
-;; '(package-selected-packages (quote (helm htmlize ack)))
+ '(package-selected-packages (quote (helm rust-mode company-go go-mode)))
  '(show-paren-mode t)
  '(size-indication-mode t)
- '(tool-bar-mode nil))
+ ;; '(tool-bar-mode nil)
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
